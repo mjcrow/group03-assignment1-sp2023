@@ -3,4 +3,5 @@
 ### Software Engineering: Assignment 1
 
 Rebekah Myrick, Francis Sumayop, Joe Pantaliono  
-run `main.py`
+run `main.py`  
+`python3 main.py`
