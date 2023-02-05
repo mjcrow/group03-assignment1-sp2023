@@ -2,5 +2,5 @@
 
 ### Software Engineering: Assignment 1
 
-Rebekah Myrick, Francis Sumayop, Joe Pantaliono
+Rebekah Myrick, Francis Sumayop, Joe Pantaliono  
 run `main.py`

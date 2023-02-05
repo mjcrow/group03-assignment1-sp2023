@@ -3,14 +3,17 @@
 # N/A
 # N/A
 # Rebekah Myrick, Francis Sumayop, Joe Pantaliono
-# <email>, <email>, <email>
+# francissumayop@lewisu.edu, rebekahmyrick@lewisu.edu, josephapantaliono@lewisu.edu
 # CPSC-44000-LT1: Software Engineering
-# <date of sumbission>
+# Date of submission: 02/05/2023
 # Check for "near misses" of x^n + y^n = z^n
 
 #get n and k from user
 n = int(input("Enter n (power):")) # power
 k = int(input("Enter k (upper limit on x/y values):")) # upper limit on values x,y
+if k > 80: # limit k <= 80
+    print("enter k <= 80")
+    k = int(input("Enter k (upper limit on x/y values):"))
 print('-'*20)
 z_arr = [0, 0] # initialize array
 
