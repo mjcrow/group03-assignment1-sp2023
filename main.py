@@ -9,6 +9,7 @@
 # Check for "near misses" of x^n + y^n = z^n
 
 #get n and k from user
+print("Welcome. Enter power n, and a limit on x/y values to find 'near misses' of x^n + y^n = z^n")
 n = int(input("Enter n (power):")) # power
 k = int(input("Enter k (upper limit on x/y values):")) # upper limit on values x,y
 if k > 80: # limit k <= 80
